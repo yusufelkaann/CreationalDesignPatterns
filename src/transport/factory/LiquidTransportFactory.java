@@ -1,3 +1,12 @@
+package transport.factory;
+
+import transport.TransportFactory;
+import transport.model.load.LiquidFuel;
+import transport.model.load.LiquidLoad;
+import transport.model.load.Load;
+import transport.model.vehicle.Tanker;
+import transport.model.vehicle.Vehicle;
+
 public class LiquidTransportFactory implements TransportFactory {
 
     private String loadType;
@@ -14,7 +23,7 @@ public class LiquidTransportFactory implements TransportFactory {
 
     @Override
     public Load createLoad() {
-        if (loadType.equals("LiquidFuel")) {
+        if (loadType.equals("transport.model.load.LiquidFuel")) {
             return new LiquidFuel(500, 500);
         }
         return new LiquidLoad(500,500);

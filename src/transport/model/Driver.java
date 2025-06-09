@@ -1,4 +1,4 @@
-
+package transport.model;
 
 public class Driver implements Cloneable {
     private String name;

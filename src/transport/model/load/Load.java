@@ -1,3 +1,5 @@
+package transport.model.load;
+
 public abstract class Load {
     private int weight;
     public Load(int weight) {

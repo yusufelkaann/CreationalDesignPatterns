@@ -1,3 +1,5 @@
+package transport.model.vehicle;
+
 public abstract class Vehicle {
     private String id;
     private int capacity;

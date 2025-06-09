@@ -1,3 +1,11 @@
+package transport.factory;
+
+import transport.TransportFactory;
+import transport.model.load.DryLoad;
+import transport.model.load.Load;
+import transport.model.vehicle.Train;
+import transport.model.vehicle.Vehicle;
+
 public class TrainTransportFactory implements TransportFactory {
 
     @Override

@@ -4,29 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d82bfa0-59dd-4f6d-b3e1-0e812648aaad" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CreationalDesignPatterns.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DryFood.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DryLoad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DryTransportFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LiquidFuel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LiquidLoad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LiquidTransportFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Load.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TIR.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tanker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Train.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TrainTransportFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TransportFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Truck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Vehicle.java" afterDir="false" />
+    <list default="true" id="3d82bfa0-59dd-4f6d-b3e1-0e812648aaad" name="Changes" comment="factories for load and vehicle also driver prototypes">
+      <change afterPath="$PROJECT_DIR$/src/transport/builder/OrderBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/transport/builder/ProjectBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/transport/manager/ProjectManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/transport/model/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/transport/model/Project.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/transport/model/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DryFood.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/transport/model/load/DryFood.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DryLoad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/transport/model/load/DryLoad.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DryTransportFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/transport/factory/DryTransportFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LiquidFuel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/transport/model/load/LiquidFuel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LiquidLoad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/transport/model/load/LiquidLoad.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LiquidTransportFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/transport/factory/LiquidTransportFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Load.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/transport/model/load/Load.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TIR.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/transport/model/vehicle/TIR.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tanker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/transport/model/vehicle/Tanker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Train.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/transport/model/vehicle/Train.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TrainTransportFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/transport/factory/TrainTransportFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TransportFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/transport/TransportFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Truck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/transport/model/vehicle/Truck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/transport/model/vehicle/Vehicle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +66,9 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Yusuf Elkaan/Desktop/CreationalDesignPatterns/CreationalDesignPatterns/src/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -79,22 +81,64 @@
       <option name="presentableId" value="Default" />
       <updated>1749384630775</updated>
       <workItem from="1749384631787" duration="4111000" />
-      <workItem from="1749398466592" duration="4404000" />
+      <workItem from="1749398466592" duration="5272000" />
+      <workItem from="1749407139591" duration="285000" />
+      <workItem from="1749461473654" duration="2954000" />
     </task>
+    <task id="LOCAL-00001" summary="factories for load and vehicle also driver prototypes">
+      <option name="closed" value="true" />
+      <created>1749406325332</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1749406325332</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
+    <option name="RECENT_FILTERS">
       <map>
-        <entry key="MAIN">
+        <entry key="Branch">
           <value>
-            <State />
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+            </list>
           </value>
         </entry>
       </map>
     </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="factories for load and vehicle also driver prototypes" />
+    <option name="LAST_COMMIT_MESSAGE" value="factories for load and vehicle also driver prototypes" />
   </component>
 </project>
